@@ -2,16 +2,9 @@ package project.ZooGardien;
 
 public class Chat extends Animal {
 
-	Chat(String nom) 
+	Chat(String nom, int poids) 
 	{
-		super(nom);
+		super(nom, poids);
+		super.m_cry = new Cry("Miauler");
 	}
-
-	void crier() 
-	{
-		System.out.println("Je miaule !");
-	}
-	
-	
-
 }

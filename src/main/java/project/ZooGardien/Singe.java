@@ -2,15 +2,10 @@ package project.ZooGardien;
 
 public class Singe extends Animal {
 
-	Singe(String nom) 
+	Singe(String nom, int poids) 
 	{
-		super(nom);
+		super(nom, poids);
+		super.m_cry = new Cry("Hurler");
 	}
 
-	void crier() 
-	{
-		System.out.println()
-	}
-	
-	
 }

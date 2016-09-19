@@ -2,14 +2,9 @@ package project.ZooGardien;
 
 public class Chien extends Animal {
 
-	Chien(String nom)
+	Chien(String nom, int poids)
 	{
-		super(nom);
-	}
-
-	void crier() 
-	{
-		System.out.println("J'aboie");
-	}
-	
+		super(nom, poids);
+		super.m_cry = new Cry("Aboyer");
+	}	
 }

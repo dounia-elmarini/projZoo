@@ -2,8 +2,8 @@ package project.ZooGardien;
 
 public abstract class Animal {
 	
-	protected String m_nom;
-	protected int m_poid;
+	private String m_nom;
+	private int m_poid;
 	protected Cry m_cry;
 
 	Animal(String nom, int poid)
